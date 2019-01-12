@@ -1,11 +1,4 @@
-public class IOffenceState {
- private int statenumber ;
+public interface IOffenceState {
 
- public IOffenceState(int statenumber){
-  this.statenumber = statenumber;
- }
-
- public int getStatenumber (){
-  return statenumber;
- }
+ int getStatenumber();
 }
