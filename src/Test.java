@@ -1,5 +1,5 @@
 public class Test {
-    public void main (String[]args){
+    public static void main (String[]args){
         IOffenceState state = new S0();
         int[][] matrix = new int[50][100];
         Ticket ticket = new Ticket(matrix);
